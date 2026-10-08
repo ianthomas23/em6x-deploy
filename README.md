@@ -1,5 +1,7 @@
 JupyterLite deployment with `emscripten-wasm32` and `emscripten-wasm64` kernels.
 
+Try it out on github pages at https://ianthomas23.github.io/em6x-deploy/
+
 To build locally:
 
 ```bash
