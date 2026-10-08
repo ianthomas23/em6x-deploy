@@ -1,0 +1,9 @@
+# Use same environment definition for both wasm32 and wasm64 environments.
+name: temp
+channels:
+  - https://prefix.dev/emscripten-forge-bot/emscripten-forge-6x
+  - https://repo.prefix.dev/conda-forge
+dependencies:
+  - xeus-python
+  - numpy
+  #- matplotlib

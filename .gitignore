@@ -1,0 +1,4 @@
+.jupyterlite.doit.db
+dist/
+wasm32/
+wasm64/

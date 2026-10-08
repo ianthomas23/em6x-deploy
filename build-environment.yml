@@ -1,0 +1,8 @@
+name: em6x-deploy
+channels:
+  - https://repo.prefix.dev/conda-forge
+dependencies:
+  - jupyter_server
+  - nodejs
+  - jupyterlite-core
+  - jupyterlite-xeus
