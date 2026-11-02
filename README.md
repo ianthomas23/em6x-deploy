@@ -13,7 +13,7 @@ micromamba create -f environment.yml --platform=emscripten-wasm64 -p ./wasm64 --
 jupyter lite build --contents contents --output-dir dist \
     --XeusAddon.prefix=./wasm32 \
     --XeusAddon.prefix=./wasm64 \
-    --XeusAddon.default_channels=https://prefix.dev/emscripten-forge-bot/emscripten-forge-6x,https://repo.prefix.dev/conda-forge
+    --XeusAddon.default_channels=https://prefix.dev/emscripten-forge/6x,https://repo.prefix.dev/conda-forge
 ```
 
 To serve locally:
